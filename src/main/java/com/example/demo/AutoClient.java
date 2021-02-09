@@ -74,7 +74,7 @@ public class AutoClient {
                             System.out.println("正在获取网页");
                             HtmlPage htmlPage = null;
                             try {
-                                htmlPage = webClient.getPage("https://www.bestfightodds.com");
+                                htmlPage = webClient.getPage("");
                                 //用于刷新页面
 //            webClient.getWebWindows().get(0).getHistory().go(0);
                                 //执行刷新,返回的是一个page接口，这个刷新还没有验证过
